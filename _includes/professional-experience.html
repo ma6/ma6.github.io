@@ -1,0 +1,26 @@
+{% for item in site.data.experience %}
+  <div class="job_item">
+      <div class="grid_2">
+          <p class="date">{{ item.date }}</p>
+      </div>
+      <div class="grid_2 company">
+          <p class="company">{{item.company}}</p>
+      </div>
+      <div class="grid_5">
+          <p class="job">Senior User Experience Consultant</p>
+
+          {% for piece in item.content %}
+            <p>{{ piece.text }}</p>
+          {% endfor %}
+
+      </div>
+      <div class="grid_3">
+          <p class="project">Customers</p>
+          <ul class="para small">
+              <li>Japan Tobacco International (via Blitzen, Berlin)</li>
+              <li>innogy</li>
+          </ul>
+      </div>
+      <div class="clear">&nbsp;</div>
+  </div>
+{% endfor %}

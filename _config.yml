@@ -1,0 +1,18 @@
+title: "Martin Gude"
+name: "Martin Gude"
+markdown: kramdown
+exclude: ["README.md", "/Gemfile", "/Gemfile.lock", "CNAME"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+sass:
+  style: compressed
+theme: jekyll-theme-cayman
