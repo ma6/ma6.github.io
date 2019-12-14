@@ -3,6 +3,11 @@ name: "Martin Gude"
 markdown: kramdown
 exclude: ["README.md", "/Gemfile", "/Gemfile.lock", "CNAME"]
 
+collections:
+  pages:
+    output: true
+    permalink: "/:path.html"
+
 defaults:
   - scope:
       path: ""
