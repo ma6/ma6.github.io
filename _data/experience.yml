@@ -1,10 +1,31 @@
 - date: since Dec. 2017
-  company: Freelancer
+  company: Freelancer 
   content:
-  - text: Working as a freelance senior user experience consultant I supported my clients to foster digital transformation. I helped to introduce agile methodologies laying out the foundations that would make further project growth possible. I also conducted strategic research and helped my clients to generate knowledge about digital transformation.
+    - text: Working as a freelance senior user experience consultant I supported my clients to foster digital transformation. I helped to introduce agile methodologies laying out the foundations that would make further project growth possible. I also conducted strategic research and helped my clients to generate knowledge about digital transformation.
+  tasks:
+    - task: Japan Tobacco International (via Blitzen, Berlin)
+    - task: innogy
 
+    
 - date: Oct. 2018-Feb 2019
   company: CGI
+  company-url: https://www.cgi.com/en
+  title: Senior  Consultant
+  content: 
+    - text: CGI is a leading IT consultancy. I was responsible for the employer marketing of the automotive cluster. I conducted strategic research which then translated into marketing material. I was also responsible to mentor junior colleagues to help them in their projects and career path
+  tasks-headline: Tasks
+  tasks:
+    - task: Cluster Marketing
+    - task: Mentoring Junior Colleagues
+
+
+- date: June 2016-Nov. 2017
+  company: MRM//McCann
+  company-url: http://mrm-mccann.de/
+  title: Senior User Experience Consultant
   content: 
     - text: MRM//McCann is the digital unit of the advertising agency group McCann. During my work at the Frankfurt office, I specialized in user experience strategy for a large retail client.
     - text: I bridged the gap between the strategy and the user experience architecture units. My work ranged from strategic research translating user needs into requirements to writing user stories and creating wireframes. Furthermore, I was responsible to raise the User Experience voice in the scrum team and drive decisions from that perspective.
+  tasks:
+    - task: ALDI Nord
+    

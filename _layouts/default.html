@@ -33,13 +33,25 @@
 <![endif]-->
 
     {% unless site.github.environment == "development" %}
-      {%include tracking.html %}
+    {%include tracking.html %}
     {% endunless %}
 
 </head>
 
 <body>
-  {{content}}
+
+    <div class="container_12">
+
+        {%include header.html %}
+
+        <div id="content">
+
+
+            {{content}}
+
+        </div>
+    </div>
+
 
 </body>
 
