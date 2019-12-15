@@ -1,0 +1,21 @@
+<div class="grid_7 prefix_2">
+    <h3>Skills</h3>
+</div>
+<div class="clear">&nbsp;</div>
+
+{% for item in site.data.skills %}
+
+<div class="job_item">
+    <div class="grid_2 prefix_2">
+        <p class="job">{{ item.skill-headline }}</p>
+    </div>
+    <div class="grid_5">
+        <ul class="para">
+            {% for piece in item.skills %}
+            <li>{{ piece.skill }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="clear">&nbsp;</div>
+</div>
+{% endfor %}

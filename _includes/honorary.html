@@ -1,0 +1,29 @@
+<div class="grid_7 prefix_2">
+    <h3>Honorary appointments</h3>
+</div>
+<div class=" clear">&nbsp;</div>
+
+{% for item in site.data.honorary %}
+<div class="job_item">
+    <div class="grid_2">
+        <p class="date">{% if item.end-date %} {{ item.start-date }} – {{ item.end-date }} {% else %} since {{ item.start-date }} {% endif %}</p>
+    </div>
+    <div class="grid_2 company">
+        <p class="company">{% if item.organisation-url %} <a href="{{item.organisation-url}}">{{item.organisation}}</a> {% else %} {{item.organisation}} {% endif %}</p>
+    </div>
+    <div class="grid_5">
+        <p class="job">{{item.title}}</p>
+
+        {% for piece in item.content %}
+        <p>{{ piece.text }}</p>
+        {% endfor %}
+
+    </div>
+    <div class="grid_3">
+
+        &nbsp;
+
+    </div>
+    <div class="clear">&nbsp;</div>
+</div>
+{% endfor %}

@@ -1,0 +1,21 @@
+<div class="grid_7 prefix_2">
+    <h3> Publications</h3>
+</div>
+<div class="clear">&nbsp;</div>
+
+{% for item in site.data.publications %}
+<div class="job_item">
+    <div class="grid_2">
+        <p class="date">{{ item.date }}</p>
+    </div>
+    <div class="grid_7 ">
+        <p class="job">
+            <a href="{{ item.publication-url }}">{{item.title}}</a>
+        </p>
+         {% for piece in item.content %}
+        <p>{{ piece.text }}</p>
+        {% endfor %}
+    </div>
+    <div class="clear">&nbsp;</div>
+</div>
+{% endfor %}
