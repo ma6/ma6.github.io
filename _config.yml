@@ -17,7 +17,12 @@ defaults:
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-tidy
 
 sass:
   style: compressed
 theme: jekyll-theme-cayman
+
+jekyll_tidy:
+  ignore_env: development
+  compress_html: true  
