@@ -1,18 +1,18 @@
 <div class="grid_7 prefix_2">
-    <h3>Professional Experience</h3>
+    <h3>Universities</h3>
 </div>
-<div class="clear">&nbsp;</div>
+<div class=" clear">&nbsp;</div>
 
-{% for item in site.data.experience %}
+{% for item in site.data.universities %}
 <div class="job_item">
     <div class="grid_2">
         <p class="date">{{ item.date }}</p>
     </div>
     <div class="grid_2 company">
-        <p class="company">{% if item.company-url %} <a href="{{item.company-url}}">{{item.company}}</a> {% else %} {{item.company}} {% endif %}</p>
+        <p class="company">{% if item.university-url %} <a href="{{item.university-url}}">{{item.university}}</a> {% else %} {{item.university}} {% endif %}</p>
     </div>
     <div class="grid_5">
-        <p class="job">Senior User Experience Consultant</p>
+        <p class="job">{{item.title}}</p>
 
         {% for piece in item.content %}
         <p>{{ piece.text }}</p>
@@ -20,12 +20,16 @@
 
     </div>
     <div class="grid_3">
-        <p class="project">{% if item.tasks-headline %} {{item.tasks-headline}} {% else %} Customers {% endif %}</p>
+        {% if item.tasks %}
+        <p class="project"> Projects </p>
         <ul class="para small">
             {% for piece in item.tasks %}
             <li>{{ piece.task }}</li>
             {% endfor %}
         </ul>
+        {% else %}
+        &nbsp;
+        {% endif %}
     </div>
     <div class="clear">&nbsp;</div>
 </div>
