@@ -6,7 +6,7 @@
 {% for item in site.data.experience %}
 <div class="job_item">
     <div class="grid_2">
-        <p class="date">{{ item.date }}</p>
+        <p class="date">{% if item.end-date %} {{ item.start-date }} – {{ item.end-date }} {% else %} since {{ item.start-date }} {% endif %}</p>
     </div>
     <div class="grid_2 company">
         <p class="company">{% if item.company-url %} <a href="{{item.company-url}}">{{item.company}}</a> {% else %} {{item.company}} {% endif %}</p>

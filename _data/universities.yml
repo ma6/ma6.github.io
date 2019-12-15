@@ -1,4 +1,5 @@
-- date: Sep. 2004-Jan. 2008
+- start-date: Sep. 2004
+  end-date: Jan. 2008
   university: Cologne University of Applied Sciences 
   university-url: https://www.medieninformatik.th-koeln.de/
   title: Media informatics, Master of Science
@@ -10,7 +11,8 @@
     - task: MyFH project to develop a central directory server at Cologne University of Applied Sciences
 
     
-- date: Apr. 2004-Aug. 2004
+- start-date: Apr. 2004
+  end-date: Aug. 2004
   university: University of Applied Sciences Bonn-Rhein-Sieg
   university-url: https://www.h-brs.de/en/inf
   title: Computer Science, Master of Science
@@ -18,7 +20,8 @@
     - text: My main subjects at University of Applied Sciences Bonn-Rhein-Sieg were Colorimetry and color theory, object-oriented component architecture, medical informatics and theoretical computer science.
     
 
-- date: Oct. 2000-Mar. 2004
+- start-date: Oct. 2000
+  end-date: Mar. 2004
   university: Cologne University of Applied Sciences 
   university-url: https://www.medieninformatik.th-koeln.de/
   title: Media informatics, Bachelor of Science
