@@ -1,21 +1,24 @@
-<div class="grid_7 prefix_2">
-    <h3> Publications</h3>
+<div class="row">
+    <div class="seven columns offset-by-two">
+        <h3>Publications</h3>
+    </div>
 </div>
-<div class="clear">&nbsp;</div>
+
 
 {% for item in site.data.publications %}
-<div class="job_item">
-    <div class="grid_2">
-        <p class="date">{{ item.date }}</p>
+<div class="row">
+    <div class="job_item">
+        <div class="two columns">
+            <p class="date">{{ item.date }}</p>
+        </div>
+        <div class="seven columns ">
+            <p class="job">
+                <a href="{{ item.publication-url }}">{{item.title}}</a>
+            </p>
+            {% for piece in item.content %}
+            <p>{{ piece.text }}</p>
+            {% endfor %}
+        </div>
     </div>
-    <div class="grid_7 ">
-        <p class="job">
-            <a href="{{ item.publication-url }}">{{item.title}}</a>
-        </p>
-         {% for piece in item.content %}
-        <p>{{ piece.text }}</p>
-        {% endfor %}
-    </div>
-    <div class="clear">&nbsp;</div>
 </div>
 {% endfor %}
