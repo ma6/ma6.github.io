@@ -134,17 +134,9 @@ a:active,
     text-decoration: underline;
 }
 
-/*
-a[href^="http:"], a[href^="https:"] {   
-background: transparent url('../images/link.gif') 100% 50% no-repeat;  
-padding-right: 14px;}
-
-a[href^="http:"]:hover, a[href^="http:"]:active, a[href^="https:"]:hover, a[href^="https:"]:active {   
-background: transparent url('../images/link_on.gif') 100% 50% no-repeat;  
-padding-right: 14px;}
-
-a[href^="http://cv.martin-gude.de"],a[href^="http://martin-gude.com"],
-a[href^="http://cv.martin-gude.de"]:hover,a[href^="http://martin-gude.com"]:hover,
-a[href^="http://cv.martin-gude.de"]:active,a[href^="http://martin-gude.com"]:hover
-{ background: transparent; padding-right: 0px;}
-*/
+/* Larger than phablet (also point when grid becomes active) */
+@media (max-width: 549px) {
+    .date {
+        text-align: left;
+    }
+}
