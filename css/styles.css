@@ -134,6 +134,8 @@ a:active,
     text-decoration: underline;
 }
 
+
+
 /* Larger than phablet (also point when grid becomes active) */
 @media (max-width: 549px) {
     .date {

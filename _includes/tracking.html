@@ -1,12 +1,24 @@
+<!-- Matomo -->
 <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    var _paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setCookieDomain", "*.martin-gude.com"]);
+    _paq.push(["setDomains", ["*.martin-gude.com", "*.ma6.github.io"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u = "//analytics.onygo.org/";
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', '2']);
+        var d = document,
+            g = d.createElement('script'),
+            s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript';
+        g.async = true;
+        g.defer = true;
+        g.src = u + 'matomo.js';
+        s.parentNode.insertBefore(g, s);
+    })();
 
 </script>
-<script type="text/javascript">
-    try {
-        var pageTracker = _gat._getTracker("UA-290795-2");
-        pageTracker._trackPageview();
-    } catch (err) {}
-
-</script>
+<!-- End Matomo Code -->
