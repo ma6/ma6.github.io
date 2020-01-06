@@ -141,4 +141,20 @@ a:active,
     .date {
         text-align: left;
     }
+
+    .odd {}
+
+    .even {}
+
+    .items {
+        border-top: 1px #ccc dotted;
+        padding-top: 15px;
+
+    }
+
+    .first {
+
+        padding-top: 0px;
+        border-top: 0px;
+    }
 }
