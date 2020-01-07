@@ -140,7 +140,7 @@ span.nobreak,
 }
 
 /* Larger than tablet (also point when grid becomes active) */
-@media (max-width: 749px) {
+@media (max-width: 768px) {
     .date {
         text-align: left;
     }
