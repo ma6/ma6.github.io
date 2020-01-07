@@ -5,34 +5,32 @@
 </div>
 
 {% for item in site.data.universities %}
-<div class="row items {% cycle 'odd', 'even' %} {% if forloop.first == true %} first {% endif %}">
-    <div class="job_item">
-        <div class="two columns">
-            <p class="date">{% if item.end-date %} {{ item.start-date }} – {{ item.end-date }} {% else %} since {{ item.start-date }} {% endif %}</p>
-        </div>
-        <div class="two columns company">
-            <p class="company">{% if item.university-url %} <a href="{{item.university-url}}">{{item.university}}</a> {% else %} {{item.university}} {% endif %}</p>
-        </div>
-        <div class="five columns">
-            <p class="job">{{item.title}}</p>
+<div class="row items {% cycle 'odd', 'even' %} {% if forloop.first == true %} first {% endif %} job_item">
+    <div class="two columns">
+        <p class="date">{% if item.end-date %} {{ item.start-date }} – {{ item.end-date }} {% else %} since {{ item.start-date }} {% endif %}</p>
+    </div>
+    <div class="two columns company">
+        <p class="company">{% if item.university-url %} <a href="{{item.university-url}}">{{item.university}}</a> {% else %} {{item.university}} {% endif %}</p>
+    </div>
+    <div class="five columns">
+        <p class="job">{{item.title}}</p>
 
-            {% for piece in item.content %}
-            <p>{{ piece.text }}</p>
+        {% for piece in item.content %}
+        <p>{{ piece.text }}</p>
+        {% endfor %}
+
+    </div>
+    <div class="three columns">
+        {% if item.tasks %}
+        <p class="project"> Projects </p>
+        <ul class="para small">
+            {% for piece in item.tasks %}
+            <li>{{ piece.task }}</li>
             {% endfor %}
-
-        </div>
-        <div class="three columns">
-            {% if item.tasks %}
-            <p class="project"> Projects </p>
-            <ul class="para small">
-                {% for piece in item.tasks %}
-                <li>{{ piece.task }}</li>
-                {% endfor %}
-            </ul>
-            {% else %}
-            &nbsp;
-            {% endif %}
-        </div>
+        </ul>
+        {% else %}
+        &nbsp;
+        {% endif %}
     </div>
 </div>
 {% endfor %}

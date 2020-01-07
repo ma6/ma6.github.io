@@ -5,18 +5,16 @@
 </div>
 
 {% for item in site.data.skills %}
-<div class="row">
-    <div class="job_item">
-        <div class="two columns offset-by-two">
-            <p class="job">{{ item.skill-headline }}</p>
-        </div>
-        <div class="five columns">
-            <ul class="para">
-                {% for piece in item.skills %}
-                <li>{{ piece.skill }}</li>
-                {% endfor %}
-            </ul>
-        </div>
+<div class="row job_item">
+    <div class="two columns offset-by-two">
+        <p class="job">{{ item.skill-headline }}</p>
+    </div>
+    <div class="five columns">
+        <ul class="para">
+            {% for piece in item.skills %}
+            <li>{{ piece.skill }}</li>
+            {% endfor %}
+        </ul>
     </div>
 </div>
 
