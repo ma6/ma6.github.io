@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- {{ site.time | date_to_xmlschema }} -->
+    <!-- {{ site.time | date_to_rfc822 }} -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Martin Gude - Experience Strategist and Product Manager</title>
@@ -13,13 +13,13 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="//fonts.staticsi.de/vollkorn-v8-latin-ext_latin/css/vollkorn.css">
-    <link rel="stylesheet" type="text/css" media="all" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/screen.css?{{ site.time | date: "%Y%m%d%H%M%S"  }}" />
 
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" type="text/css" media="all" href="/css/skeleton.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="/css/styles.css" />
-    <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/styles.css?{{ site.time | date: "%Y%m%d%H%M%S"  }}" />
+    <link rel="stylesheet" type="text/css" media="print" href="/css/print.css?{{ site.time | date: "%Y%m%d%H%M%S"  }}" />
     <!-- JAVASCRIPT -->
     <script type="text/javascript" src="/js/rot13.js"></script>
 
