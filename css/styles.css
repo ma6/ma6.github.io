@@ -134,10 +134,13 @@ a:active,
     text-decoration: underline;
 }
 
+span.nobreak,
+.date span {
+    white-space: nowrap;
+}
 
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (max-width: 549px) {
+/* Larger than tablet (also point when grid becomes active) */
+@media (max-width: 749px) {
     .date {
         text-align: left;
     }
