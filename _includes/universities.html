@@ -20,17 +20,16 @@
         {% endfor %}
 
     </div>
+
+    {% if item.tasks %}
     <div class="three columns">
-        {% if item.tasks %}
         <p class="project"> Projects </p>
         <ul class="para small">
             {% for piece in item.tasks %}
             <li>{{ piece.task }}</li>
             {% endfor %}
         </ul>
-        {% else %}
-        &nbsp;
-        {% endif %}
     </div>
+    {% endif %}
 </div>
 {% endfor %}
