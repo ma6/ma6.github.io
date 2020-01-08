@@ -1,4 +1,4 @@
-# UXcamp Europe Website
+# Martin's CV Website
 
 ## Installation
 
@@ -6,7 +6,7 @@ In order to run Jekyll locally, follow these instructions for a full installatio
 
 ## Git Repository
 
-You may use a tool like https://www.sourcetreeapp.com/ to clone the git repository and manage git commit / pull requests. You may also use the Terminal:
+You may use a tool like https://www.sourcetreeapp.com/ or https://desktop.github.com/ to clone the git repository and manage git commit / pull requests. You may also use the Terminal:
 
 ```git clone https://github.com/ma6/ma6.github.io.git```
 
