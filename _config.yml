@@ -27,7 +27,7 @@ compress_html:
   comments: []
   endings: []
   ignore:
-    envs: [local]
+    envs: [development]
   blanklines: true
   profile: false
   startings: []
