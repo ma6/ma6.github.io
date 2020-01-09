@@ -18,6 +18,7 @@
         <p>{{ piece.text }}</p>
         {% endfor %}
     </div>
+    {% if item.tasks %}
     <div class="three columns">
         <p class="project">{% if item.tasks-headline %} {{item.tasks-headline}} {% else %} Customers {% endif %}</p>
         <ul class="para small">
@@ -26,5 +27,6 @@
             {% endfor %}
         </ul>
     </div>
+    {% endif %}
 </div>
 {% endfor %}
