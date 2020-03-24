@@ -27,6 +27,10 @@
 - skill-headline: Tools
   skills:
     - skill: Paper, pencils, flip charts, whiteboards and stickies
+<<<<<<< HEAD
     - skill: Axure RP, UXPin 
+=======
+    - skill: UXPin, Axure RP
+>>>>>>> b435d59de82ce1564c6c9e2d419c360511ef8963
     - skill: Jira, Confluence, git
     - skill: Microsoft Office, Apple Keynote and OmniGraffle
