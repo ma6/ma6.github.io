@@ -17,3 +17,7 @@ Once you have everything installed, go to the root folder of the git repository 
 ```bundle exec jekyll serve```
 
 The UXcamp Europe Website is now available at the URL mentioned in the Terminal, e.g. http://127.0.0.1:4000/
+
+## Publication
+
+The website is available at https://martin-gude.com/
