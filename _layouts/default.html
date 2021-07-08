@@ -28,7 +28,9 @@ layout: compress
     <link rel="stylesheet" type="text/css" media="all" href="/css/styles.css?{{ timestamp}}" />
     <link rel="stylesheet" type="text/css" media="print" href="/css/print.css?{{ timestamp }}" />
     <!-- JAVASCRIPT -->
-    <script type="text/javascript" src="/js/rot13.js"></script>
+
+    <!-- Add cookiebanner -->
+    {%include cookiebanner.html %}
 
     <link rel="shortcut icon" href="//martin-gude.com/favicon.png" type="image/png" />
     <link rel="image_src" href="//martin-gude.com/favicon.png" />
@@ -45,7 +47,7 @@ layout: compress
 </head>
 
 <body>
-  
+
     <div class="container">
         {%include header.html %}
         {%include profile.html %}
