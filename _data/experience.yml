@@ -20,7 +20,18 @@
     - task: smart
     - task: Mercedes-Benz Vans
     - task: AOK Bundesverband
-    - task: KIA
+
+
+- start-date: Dec. 2017
+  end-date: Jan. 2020
+  company: Freelancer
+  title: Senior User Experience Consultant
+  content:
+    - text: Working as a freelance senior user experience consultant I supported my clients to foster digital transformation. I helped to introduce agile methodologies laying out the foundations that would make further project growth possible. I also conducted strategic research and helped my clients to generate knowledge about digital transformation.
+  tasks:
+    - task: Japan Tobacco International (via Blitzen, Berlin)
+    - task: innogy
+
 
 - start-date: Oct. 2018
   end-date: Feb 2019
