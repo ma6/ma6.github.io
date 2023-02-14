@@ -21,13 +21,13 @@
 - skill-headline: Certificates
   skills:
     - skill: '<a href="https://www.credly.com/badges/708aba8a-3cc1-4500-99ce-207eecfe6fcf/public_url">Professional Scrum Product Owner I (2014)</a>'
-    - skill: '<a href="https://www.credly.com/badges/47b0f00f-a7ba-40a9-a2bb-9429def0ee8b/public_url">Professional Scrum Master I (2018)'
+    - skill: '<a href="https://www.credly.com/badges/47b0f00f-a7ba-40a9-a2bb-9429def0ee8b/public_url">Professional Scrum Master I (2018)</a>'
     - skill: "IELTS General Training (2012): 7.5"
 
 
 - skill-headline: Tools
   skills:
-    - skill: Paper, pencils, flip charts, whiteboards and stickies
+    - skill: Paper, pencils, flip charts, whiteboards and stickies 
     - skill: Miro, Mural
     - skill: Axure RP, UXPin
     - skill: Jira, Confluence, git
