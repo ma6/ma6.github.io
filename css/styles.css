@@ -148,6 +148,10 @@ span.nobreak,
     display:inline-block;
 }
 
+.social {
+    font-size: 2em;
+}
+
 /* Larger than tablet (also point when grid becomes active) */
 @media (max-width: 768px) {
     .date {
