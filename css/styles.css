@@ -139,6 +139,15 @@ span.nobreak,
     white-space: nowrap;
 }
 
+.icon-desc {
+    display: none;
+}
+
+.inline li,
+.inline li {
+    display:inline-block;
+}
+
 /* Larger than tablet (also point when grid becomes active) */
 @media (max-width: 768px) {
     .date {
