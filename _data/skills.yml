@@ -19,7 +19,8 @@
 
 
 - skill-headline: Certificates
-  skills:
+  skills
+    - skill: '<a href="https://www.credly.com/badges/303c995e-8cae-4371-8023-305357b86508/public_url">Change Management Foundation (APMG International) – 2024</a>':
     - skill: '<a href="https://www.credly.com/badges/a2183392-841c-4e50-ae01-41e0ddd68674/public_url">Professional Agile Leadership™ I (PAL I) – 2023</a>'
     - skill: '<a href="https://www.credly.com/badges/47b0f00f-a7ba-40a9-a2bb-9429def0ee8b/public_url">Professional Scrum Master™ I (PSM I) – 2018</a>'
     - skill: '<a href="https://www.credly.com/badges/708aba8a-3cc1-4500-99ce-207eecfe6fcf/public_url">Professional Scrum Product Owner™ I (PSPO I) – 2014</a>'
