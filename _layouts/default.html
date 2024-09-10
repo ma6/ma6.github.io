@@ -7,6 +7,8 @@ layout: compress
 <head>
 
     {% capture timestamp %}{{ 'now' | date: "%s" }}{% endcapture %}
+
+    <!-- Last published: {{ site.time | date_to_rfc822 }}  -->
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="f131ea56-32fa-415d-9859-3ad038da5ab4" data-blockingmode="auto" type="text/javascript"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -61,7 +63,6 @@ layout: compress
         {%include footer.html %}
     </div>
 
-    <!-- {{ site.time | date_to_rfc822 }}  -->
 </body>
 
 </html>
