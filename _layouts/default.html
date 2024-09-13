@@ -9,7 +9,7 @@ layout: compress
     {% capture timestamp %}{{ 'now' | date: "%s" }}{% endcapture %}
 
     <!-- Last published: {{ site.time | date_to_rfc822 }}  -->
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="f131ea56-32fa-415d-9859-3ad038da5ab4" data-blockingmode="auto" type="text/javascript"></script>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js?{{ timestamp  }}" data-cbid="f131ea56-32fa-415d-9859-3ad038da5ab4" data-blockingmode="auto" type="text/javascript"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
